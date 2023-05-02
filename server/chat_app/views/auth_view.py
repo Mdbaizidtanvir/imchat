@@ -5,6 +5,7 @@ from channels.layers import get_channel_layer
 from django.contrib.auth.models import User
 from django.core import serializers
 from django.http import HttpResponse
+from channels.layers import DEFAULT_CHANNEL_LAYER
 
 # Create your views here.
 from django.shortcuts import render
